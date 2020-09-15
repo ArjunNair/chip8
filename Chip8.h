@@ -64,7 +64,7 @@ public:
   ///The chip8 has a stack space for 16 16-bit addresses.
   int16_t Stack[16];
 
-  ///The 8-bit stack pointer is used to point to the top of the Stack space.
+  ///The 16-bit stack pointer is used to point to the top of the Stack space.
   int16_t SP;
 
   ///A 16 bit general purpose register used to store memory addresses. Only 12
