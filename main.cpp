@@ -50,9 +50,9 @@ unsigned char boot_rom[] =
   0x05, 
   0x61, //0x206 LOAD r1, 1 - the sprite counter
   0x01, 
-  0x62, //0x208 LOAD r2, $10 - X Position
+  0x62, //0x208 LOAD r2, $12 - X Position
   0x12, 
-  0x63, //0x20a LOAD r3, $10 - Y position
+  0x63, //0x20a LOAD r3, $0c - Y position
   0x0c, 
   0xd2, //0x20c DRAW r2, r3, $5 - Draw sprite
   0x35, 
